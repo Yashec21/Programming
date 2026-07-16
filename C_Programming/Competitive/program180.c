@@ -1,11 +1,10 @@
 #include <stdio.h>
-typedef unsigned int UNIT;
+typedef unsigned int UINT;
 
-
-UNIT OnBit(UNIT iNo)
+UINT OnBit(UINT iNo)
 {
-    UNIT iAns=0;
-    UNIT iMask =0x8;
+    UINT iAns=0;
+    UINT iMask =0x8;
 
     iAns = iNo | iMask;
    
@@ -14,13 +13,15 @@ UNIT OnBit(UNIT iNo)
 }
 int main()
 {
-    UNIT iNo=0;
-    UNIT iRet =0;
+    UINT iValue = 0;
+    UINT iRet = 0;
 
-    printf("Enter number \n");
-    scanf("%d",&iNo);
+    printf("Enter number: ");
+    scanf("%u", &iValue);
 
-    iRet = OnBit(iNo);
+    iRet = OnBit(iValue);
 
-    printf("%u",iRet);
+    printf("Modified number: %u\n", iRet);
+
+    return 0;
 }
