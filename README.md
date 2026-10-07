@@ -50,8 +50,13 @@ Programming/
 │   └── settings.json
 │
 ├── C_Programming/
-│   ├── Competitive/
-│   └── Practice/
+│  ├── Competitive/
+│  └── Practice/
+│       ├── Array/
+│       ├── Digits/
+│       ├── Numbers/
+│       ├── Pattern/
+│       └── ...
 │
 ├── C++_Programming/
 │   ├── Competitive/
@@ -202,63 +207,18 @@ Topics include:
 ## 🔢 Numbers
 
 Programs based on mathematical and number-related logic.
-
-Topics include:
-
--   Prime Number
--   Perfect Number
--   Armstrong Number
--   Strong Number
--   Palindrome Number
--   Automorphic Number
--   Neon Number
--   Factors
--   Number Conversion
--   Mathematical Operations
--   Number-Based Problem Solving
-
 ------------------------------------------------------------------------
 
 ## 🔢 Digits
 
 Programs focused on extracting and manipulating individual digits of
 numbers.
-
-Topics include:
-
--   Count Digits
--   Sum of Digits
--   Product of Digits
--   Reverse of Number
--   First Digit
--   Last Digit
--   Digit Frequency
--   Even Digits
--   Odd Digits
--   Maximum Digit
--   Minimum Digit
--   Digit-Based Mathematical Problems
-
 ------------------------------------------------------------------------
 
 ## ⭐ Pattern Programming
 
 Pattern programs are used to improve logical thinking, loop control, and
 problem-solving skills.
-
-Programs include:
-
--   Star Patterns
--   Number Patterns
--   Character Patterns
--   Triangle Patterns
--   Pyramid Patterns
--   Inverted Patterns
--   Square Patterns
--   Diamond Patterns
--   Combination Patterns
--   Nested Loop Problems
-
 ------------------------------------------------------------------------
 
 # 🏆 Competitive Programming
